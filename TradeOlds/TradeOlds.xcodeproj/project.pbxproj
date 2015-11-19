@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CDBEC0C1BF5304600406856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBEC0B1BF5304600406856 /* main.m */; };
+		8CDBEC0F1BF5304600406856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBEC0E1BF5304600406856 /* AppDelegate.m */; };
+		8CDBEC121BF5304600406856 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBEC111BF5304600406856 /* ViewController.m */; };
+		8CDBEC151BF5304600406856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBEC131BF5304600406856 /* Main.storyboard */; };
+		8CDBEC171BF5304600406856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBEC161BF5304600406856 /* Assets.xcassets */; };
+		8CDBEC1A1BF5304600406856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBEC181BF5304600406856 /* LaunchScreen.storyboard */; };
+		8CDBEC251BF5304600406856 /* TradeOldsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBEC241BF5304600406856 /* TradeOldsTests.m */; };
+		8CDBEC301BF5304600406856 /* TradeOldsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBEC2F1BF5304600406856 /* TradeOldsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CDBEC211BF5304600406856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CDBEBFF1BF5304600406856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDBEC061BF5304600406856;
+			remoteInfo = TradeOlds;
+		};
+		8CDBEC2C1BF5304600406856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CDBEBFF1BF5304600406856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDBEC061BF5304600406856;
+			remoteInfo = TradeOlds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CDBEC071BF5304600406856 /* TradeOlds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeOlds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDBEC0B1BF5304600406856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CDBEC0D1BF5304600406856 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CDBEC0E1BF5304600406856 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CDBEC101BF5304600406856 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CDBEC111BF5304600406856 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CDBEC141BF5304600406856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CDBEC161BF5304600406856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CDBEC191BF5304600406856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CDBEC1B1BF5304600406856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDBEC201BF5304600406856 /* TradeOldsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeOldsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDBEC241BF5304600406856 /* TradeOldsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeOldsTests.m; sourceTree = "<group>"; };
+		8CDBEC261BF5304600406856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDBEC2B1BF5304600406856 /* TradeOldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeOldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDBEC2F1BF5304600406856 /* TradeOldsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeOldsUITests.m; sourceTree = "<group>"; };
+		8CDBEC311BF5304600406856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CDBEC041BF5304600406856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDBEC1D1BF5304600406856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDBEC281BF5304600406856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CDBEBFE1BF5304600406856 = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC091BF5304600406856 /* TradeOlds */,
+				8CDBEC231BF5304600406856 /* TradeOldsTests */,
+				8CDBEC2E1BF5304600406856 /* TradeOldsUITests */,
+				8CDBEC081BF5304600406856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CDBEC081BF5304600406856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC071BF5304600406856 /* TradeOlds.app */,
+				8CDBEC201BF5304600406856 /* TradeOldsTests.xctest */,
+				8CDBEC2B1BF5304600406856 /* TradeOldsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CDBEC091BF5304600406856 /* TradeOlds */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC101BF5304600406856 /* ViewController.h */,
+				8CDBEC111BF5304600406856 /* ViewController.m */,
+				8CDBEC131BF5304600406856 /* Main.storyboard */,
+				8CDBEC161BF5304600406856 /* Assets.xcassets */,
+				8CDBEC181BF5304600406856 /* LaunchScreen.storyboard */,
+				8CDBEC1B1BF5304600406856 /* Info.plist */,
+				8CDBEC3D1BF530C900406856 /* Model */,
+				8CDBEC0A1BF5304600406856 /* Supporting Files */,
+			);
+			path = TradeOlds;
+			sourceTree = "<group>";
+		};
+		8CDBEC0A1BF5304600406856 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC0B1BF5304600406856 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CDBEC231BF5304600406856 /* TradeOldsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC241BF5304600406856 /* TradeOldsTests.m */,
+				8CDBEC261BF5304600406856 /* Info.plist */,
+			);
+			path = TradeOldsTests;
+			sourceTree = "<group>";
+		};
+		8CDBEC2E1BF5304600406856 /* TradeOldsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC2F1BF5304600406856 /* TradeOldsUITests.m */,
+				8CDBEC311BF5304600406856 /* Info.plist */,
+			);
+			path = TradeOldsUITests;
+			sourceTree = "<group>";
+		};
+		8CDBEC3D1BF530C900406856 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC0D1BF5304600406856 /* AppDelegate.h */,
+				8CDBEC0E1BF5304600406856 /* AppDelegate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CDBEC061BF5304600406856 /* TradeOlds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDBEC341BF5304600406856 /* Build configuration list for PBXNativeTarget "TradeOlds" */;
+			buildPhases = (
+				8CDBEC031BF5304600406856 /* Sources */,
+				8CDBEC041BF5304600406856 /* Frameworks */,
+				8CDBEC051BF5304600406856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradeOlds;
+			productName = TradeOlds;
+			productReference = 8CDBEC071BF5304600406856 /* TradeOlds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CDBEC1F1BF5304600406856 /* TradeOldsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDBEC371BF5304600406856 /* Build configuration list for PBXNativeTarget "TradeOldsTests" */;
+			buildPhases = (
+				8CDBEC1C1BF5304600406856 /* Sources */,
+				8CDBEC1D1BF5304600406856 /* Frameworks */,
+				8CDBEC1E1BF5304600406856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CDBEC221BF5304600406856 /* PBXTargetDependency */,
+			);
+			name = TradeOldsTests;
+			productName = TradeOldsTests;
+			productReference = 8CDBEC201BF5304600406856 /* TradeOldsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CDBEC2A1BF5304600406856 /* TradeOldsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDBEC3A1BF5304600406856 /* Build configuration list for PBXNativeTarget "TradeOldsUITests" */;
+			buildPhases = (
+				8CDBEC271BF5304600406856 /* Sources */,
+				8CDBEC281BF5304600406856 /* Frameworks */,
+				8CDBEC291BF5304600406856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CDBEC2D1BF5304600406856 /* PBXTargetDependency */,
+			);
+			name = TradeOldsUITests;
+			productName = TradeOldsUITests;
+			productReference = 8CDBEC2B1BF5304600406856 /* TradeOldsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CDBEBFF1BF5304600406856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Uwlax.edu;
+				TargetAttributes = {
+					8CDBEC061BF5304600406856 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8CDBEC1F1BF5304600406856 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8CDBEC061BF5304600406856;
+					};
+					8CDBEC2A1BF5304600406856 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8CDBEC061BF5304600406856;
+					};
+				};
+			};
+			buildConfigurationList = 8CDBEC021BF5304600406856 /* Build configuration list for PBXProject "TradeOlds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CDBEBFE1BF5304600406856;
+			productRefGroup = 8CDBEC081BF5304600406856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CDBEC061BF5304600406856 /* TradeOlds */,
+				8CDBEC1F1BF5304600406856 /* TradeOldsTests */,
+				8CDBEC2A1BF5304600406856 /* TradeOldsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CDBEC051BF5304600406856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDBEC1A1BF5304600406856 /* LaunchScreen.storyboard in Resources */,
+				8CDBEC171BF5304600406856 /* Assets.xcassets in Resources */,
+				8CDBEC151BF5304600406856 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDBEC1E1BF5304600406856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDBEC291BF5304600406856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CDBEC031BF5304600406856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDBEC121BF5304600406856 /* ViewController.m in Sources */,
+				8CDBEC0F1BF5304600406856 /* AppDelegate.m in Sources */,
+				8CDBEC0C1BF5304600406856 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDBEC1C1BF5304600406856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDBEC251BF5304600406856 /* TradeOldsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDBEC271BF5304600406856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDBEC301BF5304600406856 /* TradeOldsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CDBEC221BF5304600406856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CDBEC061BF5304600406856 /* TradeOlds */;
+			targetProxy = 8CDBEC211BF5304600406856 /* PBXContainerItemProxy */;
+		};
+		8CDBEC2D1BF5304600406856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CDBEC061BF5304600406856 /* TradeOlds */;
+			targetProxy = 8CDBEC2C1BF5304600406856 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CDBEC131BF5304600406856 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDBEC141BF5304600406856 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CDBEC181BF5304600406856 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDBEC191BF5304600406856 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CDBEC321BF5304600406856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CDBEC331BF5304600406856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CDBEC351BF5304600406856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TradeOlds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangsongLi.TradeOlds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CDBEC361BF5304600406856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TradeOlds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangsongLi.TradeOlds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CDBEC381BF5304600406856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeOldsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangsongLi.TradeOldsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeOlds.app/TradeOlds";
+			};
+			name = Debug;
+		};
+		8CDBEC391BF5304600406856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradeOldsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangsongLi.TradeOldsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradeOlds.app/TradeOlds";
+			};
+			name = Release;
+		};
+		8CDBEC3B1BF5304600406856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeOldsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangsongLi.TradeOldsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeOlds;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8CDBEC3C1BF5304600406856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TradeOldsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangsongLi.TradeOldsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TradeOlds;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CDBEC021BF5304600406856 /* Build configuration list for PBXProject "TradeOlds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDBEC321BF5304600406856 /* Debug */,
+				8CDBEC331BF5304600406856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDBEC341BF5304600406856 /* Build configuration list for PBXNativeTarget "TradeOlds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDBEC351BF5304600406856 /* Debug */,
+				8CDBEC361BF5304600406856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CDBEC371BF5304600406856 /* Build configuration list for PBXNativeTarget "TradeOldsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDBEC381BF5304600406856 /* Debug */,
+				8CDBEC391BF5304600406856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CDBEC3A1BF5304600406856 /* Build configuration list for PBXNativeTarget "TradeOldsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDBEC3B1BF5304600406856 /* Debug */,
+				8CDBEC3C1BF5304600406856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CDBEBFF1BF5304600406856 /* Project object */;
+}
