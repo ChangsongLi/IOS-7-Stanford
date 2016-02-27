@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1A19374D6BC109B3653E585857A81EAB92BF3F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B1A19374D6BC109B3653E585857A81EAB92BF3F2" : 0,
+    "8184BE983A0BC91FAEC680FBB0D1BF00460E2E90" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "16850A2B-590D-4DBA-B102-FE0CBA37CAAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B1A19374D6BC109B3653E585857A81EAB92BF3F2" : "Tradold\/",
+    "8184BE983A0BC91FAEC680FBB0D1BF00460E2E90" : "..\/Assignment"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SYMBOLTABLE",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SYMBOLTABLE\/SYMBOLTABLE.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/pier.cs.uwlax.edu:12443\/Jason\/Assignment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8184BE983A0BC91FAEC680FBB0D1BF00460E2E90"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ChangsongLi\/Tradold.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1A19374D6BC109B3653E585857A81EAB92BF3F2"
+    }
+  ]
+}

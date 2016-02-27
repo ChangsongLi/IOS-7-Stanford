@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8C28325C1C71AD2F0038B78B /* IOMngr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IOMngr.h; path = ../../../Assignment/IOMngr.h; sourceTree = "<group>"; };
+		8C28325D1C71AD2F0038B78B /* IOMngrDriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IOMngrDriver.c; path = ../../../Assignment/IOMngrDriver.c; sourceTree = "<group>"; };
+		8C28325E1C71AD2F0038B78B /* IOMngrListing */ = {isa = PBXFileReference; lastKnownFileType = text; name = IOMngrListing; path = ../../../Assignment/IOMngrListing; sourceTree = "<group>"; };
+		8C28325F1C71AD2F0038B78B /* IOMngrSource */ = {isa = PBXFileReference; lastKnownFileType = text; name = IOMngrSource; path = ../../../Assignment/IOMngrSource; sourceTree = "<group>"; };
+		8C2832601C71AD2F0038B78B /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../../Assignment/Makefile; sourceTree = "<group>"; };
+		8C2832611C71AD2F0038B78B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../Assignment/README.md; sourceTree = "<group>"; };
+		8C2832621C71AD2F0038B78B /* SymData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = SymData.txt; path = ../../../Assignment/SymData.txt; sourceTree = "<group>"; };
+		8C2832631C71AD2F0038B78B /* SymTab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SymTab.c; path = ../../../Assignment/SymTab.c; sourceTree = "<group>"; };
+		8C2832641C71AD2F0038B78B /* SymTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SymTab.h; path = ../../../Assignment/SymTab.h; sourceTree = "<group>"; };
+		8C2832651C71AD2F0038B78B /* SymTabDriver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = SymTabDriver.c; path = ../../../Assignment/SymTabDriver.c; sourceTree = "<group>"; };
+		8C2832661C71AD640038B78B /* IOMngr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = IOMngr.c; path = ../../../Assignment/IOMngr.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8C4A72D21C66B9910021E48F = {
+			isa = PBXGroup;
+			children = (
+				8C28325C1C71AD2F0038B78B /* IOMngr.h */,
+				8C2832661C71AD640038B78B /* IOMngr.c */,
+				8C28325D1C71AD2F0038B78B /* IOMngrDriver.c */,
+				8C28325E1C71AD2F0038B78B /* IOMngrListing */,
+				8C28325F1C71AD2F0038B78B /* IOMngrSource */,
+				8C2832601C71AD2F0038B78B /* Makefile */,
+				8C2832611C71AD2F0038B78B /* README.md */,
+				8C2832621C71AD2F0038B78B /* SymData.txt */,
+				8C2832631C71AD2F0038B78B /* SymTab.c */,
+				8C2832641C71AD2F0038B78B /* SymTab.h */,
+				8C2832651C71AD2F0038B78B /* SymTabDriver.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8C4A72D31C66B9910021E48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 8C4A72D61C66B9910021E48F /* Build configuration list for PBXProject "SYMBOLTABLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C4A72D21C66B9910021E48F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8C4A72D71C66B9910021E48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8C4A72D81C66B9910021E48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C4A72D61C66B9910021E48F /* Build configuration list for PBXProject "SYMBOLTABLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4A72D71C66B9910021E48F /* Debug */,
+				8C4A72D81C66B9910021E48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C4A72D31C66B9910021E48F /* Project object */;
+}
