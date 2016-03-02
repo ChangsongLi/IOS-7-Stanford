@@ -18,9 +18,6 @@
             score++;
         }
     }
-    if (score) {
-        NSLog(@"bug");
-    }
     return score;
 }
 

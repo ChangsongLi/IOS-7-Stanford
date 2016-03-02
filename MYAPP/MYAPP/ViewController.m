@@ -7,15 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "PlayingCardDeck.h"
-#import "CardMatchingGame.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (strong, nonatomic) Deck *deck;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *gameModeSegmentControl;
-@property (strong,nonatomic) CardMatchingGame *game;
+
 @end
 
 @implementation ViewController
@@ -27,8 +25,8 @@
     return _game;
 }
 
--(Deck *)createDeck{
-    return [[PlayingCardDeck alloc]init];
+-(Deck *)createDeck{ // abstract method
+    return nil;
 }
 
 - (IBAction)touchCardButton:(UIButton *)sender {
@@ -42,7 +40,7 @@
     for (UIButton *button in self.cardButtons) {
         NSUInteger cardIndex = [self.cardButtons indexOfObject:button];
         Cards *card = [self.game cardAtIndex:cardIndex];
-        [button setTitle:[self getTitle:card] forState:UIControlStateNormal];
+        [button setAttributedTitle:[self getTitle:card] forState:UIControlStateNormal];
         [button setBackgroundImage:[self getBackground:card] forState:UIControlStateNormal];
         button.enabled = !card.isMatched;
     }
@@ -62,12 +60,8 @@
     }
 }
 
-- (NSString *)getTitle:(Cards *)card{
-    if (card.isChosen) {
-        return card.contents;
-    }else{
-        return @"";
-    }
+- (NSAttributedString *)getTitle:(Cards *)card{
+    return nil;
 }
 
 - (UIImage *)getBackground:(Cards *)card{
